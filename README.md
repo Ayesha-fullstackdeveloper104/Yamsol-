@@ -1,1 +1,1 @@
-# Yamsol-
+# Yamsol-landing page
