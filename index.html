@@ -1,18 +1,500 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title>Yamsol</title>
+
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yamsol</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
+
+
+
+
 <body>
- <section class="py-20">
-    <div class="container">
-        <div>
-            
+    <header>
+        <div class="">
+            <div style="    display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        background-color: rgb(249 250 251);
+        height: 70px; z-index: 1; width: 100%;"
+        >
+                <div class="logo">
+                    <img src="/logo img/yamsol logo.webp" style="width: 125px;">
+                </div>
+                <nav>
+                    <ul class="justify-content container">
+                        <li>
+                           
+                            <a href="#"  style="padding: 0px 0px; font-size: 14px;">Product
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            
+                            
+                            <a href="#" style="font-size: 14px">Services
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            
+                            
+                           
+                            <a href="#" style="padding: 0px 0px; font-size: 14px">Resources
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                          
+                        </li>
+                    </ul>
+                   
+
+                </nav>
+                <div class="Right">
+                    <Button id="btn2" style="background-color: #ea6106; border-style: none;">Learn More</Button>
+                </div>
+            </div>
         </div>
 
+    </header>
+    <div style="position: relative;overflow: hidden;">
+        <div style="position:absolute;inset: 0px;">
+            <video autoplay muted loop style="height: 100%;width: 100%;object-fit: cover;">
+                <source src="/logo img/hero.mp4" type="video/mp4" style="    background-blend-mode: overlay;">
+            </video>
+            <div style="position:absolute;inset: 0px;background-color: black;opacity: 70%; mix-blend-mode: multiply;">
+
+            </div>
+        </div>
+        <div class="flex items-center justify-content-center py-20"
+            style="min-height:100vh;width: 100%; position: relative; width: 100%;">
+            <div class="container" style="width: 100%;">
+                <div style="max-width: 880px;">
+                    <h1 id="f-head">Innovative Software Solutions for the Modern Businesses</h1>
+                    <p id="f-para">We provide tailored software solutions for transportation industries, including
+                        healthcare
+                        providers,
+                        schools, corporations, and emergency services. Enhance efficiency, safety, and reliability with
+                        our
+                        state-of-the-art technology..</p>
+                        <Button id="btn2" style="background-color: white; color: black; border-style: none;">Learn More</Button>
+
+                </div>
+            </div>
+        </div>
     </div>
- </section>   
+
+    <section class="py-20">
+        <div class="grid-container">
+            <div class="grid grid-cols-3 grid-rows-3 gap-1">
+                <div> <img id="img-1" src="/logo img/about-image-1.webp" alt=""></div>
+                <div><img id="img-1" src="/logo img/about-image-2.webp" alt=""></div>
+               
+                
+                <div>
+                    <img class="row-span-2" id="img-2" src="/logo img/about-image-3.webp" alt="">
+                    <div class="outline" style="margin-top: 55px;">
+                        <h3>Got feedback for us?</h3>
+                        <p>We appreciate every bit of feedback to enhance our product.</p>
+                        <button class="orang">Send Feedback</button>
+                    </div>
+                </div>
+                <div class="col-span-2 gap-3">
+                    <h2 class="font-weight" ss>Empowering progress for both <span>startups and corporates</span></h2>
+                    <p id="sec-p">Our mission is to help businesses of all sizes streamline their operations and achieve
+                        their
+                        goals
+                        through the use of innovative technology. We understand that every business is unique, and
+                        that's
+                        why we work closely with our clients to understand their specific needs and develop customized
+                        solutions that meet those needs.
+                        <hr style="width: 98%;" />
+                    </p>
+                    <div class="grid grid-cols-3 gap-6 p1">
+                        <div>
+                            <h3 class="font-style">100+</h3>
+                            <p>satisfied clients</p>
+                        </div>
+                        <div>
+                            <h3 class="font-style">7+</h3>
+                            <p>Year of experience</p>
+                        </div>
+                        <div>
+                            <h3 class="font-style">40+</h3>
+                            <p>Completed Projects</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="py-20 BG-color">
+        <div class=" container ">
+            <div class="justify-content" style="width: 46%;
+            margin-left: 460px;
+            line-height: 37px;
+        ">
+
+
+                <h3 class="font-style" style="color: white; width: 46%;
+                margin-left: 460px;
+                line-height: 50px;
+            ">Software Solutions for <span>Transportation
+                        Providers</span>
+                </h3>
+                <p class="p1" style="width: 46%;
+                margin-left: 460px;
+                line-height: 35px;"
+            >Explore tailored software for NEMT, Paratransit, School & Limo, Taxi/Cab, and more.
+                    Streamline
+                    operations and elevate customer satisfaction.</p>
+
+            </div>
+            <div>
+                <div class="tab  " style="    justify-content: center;
+                align-items: center;
+                width: 100% !important;
+                border-radius: 15px;">
+                    <button class="tablinks" onclick="openCity(event, 'NEMT')" id="defaultOpen"
+                        style="background-color: orangered; color: white;">NEMT</button>
+                    <button class="tablinks" onclick="openCity(event, 'Taxi/Cab')">Taxi/Cab</button>
+                    <button class="tablinks" onclick="openCity(event, 'School')">School</button>
+                    <button class="tablinks" onclick="openCity(event, 'Airport & Limo')">Airport & limo</button>
+                </div>
+                <div id="NEMT" class="tabcontent">
+                    <div class="grid grid-cols-2 width1 gap-6  ">
+                        <div class="row-span-2 ">
+                            <h1 id="h1" style="font-size: 24px;">Streamlined NEMT Dispatch and Operations.</h1>
+                            <P id="P" style="font-size: 16px">Introducing NEMT Nexus, an advanced NEMT dispatch
+                                software that seamlessly
+                                integrates
+                                with
+                                leading
+                                brokers. Our comprehensive platform covers the entire lifecycle of NEMT operations, from
+                                trip
+                                parsing and execution to generating billing documents. This empowers you to focus on
+                                your
+                                business's
+                                growth while ensuring efficient and effective non-emergency medical transportation
+                                services.
+                            </p>
+                            <Button id="btn2">Contact Us</Button>
+                        </div>
+                        <img class="width2" src="/logo img/hero-image.webp" alt="">
+                    </div>
+                </div>
+                <!-- <div id="Taxi/Cab" class="tabcontent">
+                <div class="grid grid-cols-2 width1 ">
+                    <div class="row-span-2 ">
+                        <h1 id="h1">Streamline Your Cab Business for Success</h1>
+                        <p id="P">The ultimate integrated cab management system designed to optimize your cab business
+                            operations.
+                            With a centralized provider portal, you can effortlessly manage trips, drivers, passengers,
+                            and
+                            the dispatch system. Our state-of-the-art technology solutions are your key to improving
+                            efficiency, enhancing customer satisfaction, and driving the growth of your business.
+                        </p>
+                        <Button id="btn2">Learn More</Button>
+                    </div>
+                    <img class="width2"
+                        src="/logo img/transforming-a-taxi-cab-company-with-innovative-solutions (1).webp" alt="">
+                </div>
+            </div>
+            <div id="School" class="tabcontent">
+                <div class="grid grid-cols-2 width1 ">
+                    <div class="row-span-2 ">
+                        <h1 id="h1">Efficient School Transportation Solutions</h1>
+                        <p id="P">We offer cutting-edge software solutions designed to optimize school transportation
+                            services.
+                            Our technology ensures that providers can pick up students and staff members on time, every
+                            time. Say goodbye to transportation delays and hello to a smoother school commute with our
+                            innovative tools. Discover how we're reshaping school transportation for the better!
+                        </p>
+                    </div>
+                    <img class="width2" src="/logo img/school-transportation (1).webp" alt="">
+                </div>
+            </div>
+            <div id="Airport & Limo" class="tabcontent">
+                <div class="grid grid-cols-2 width1 ">
+                    <div class="row-span-2 ">
+                        <h1 id="h1">Efficiency, Reliability, and Comfort in Every Ride.</h1>
+                        <p id="P"> We offer state-of-the-art software solutions for airport and limo transportation
+                            services. Our
+                            technology empowers providers to pick up passengers promptly, ensuring that every journey
+                            begins
+                            on time and in comfort. Say goodbye to transportation hassles and hello to a seamless
+                            airport or
+                            limo experience with our innovative tools. Discover how we're transforming the way you
+                            travel
+                            for the better!
+                        </p>
+                    </div>
+                    <img class="width2" src="/logo img/lemo (1).webp" alt="">
+                </div>
+            </div> -->
+            </div>
+    </section>
+    <section class="py-20">
+        <div class="container">
+            <div class="justify-content">
+                <h2 class="font weight" id="h8"> <span style="font-size: 40px;">Comprehensive Digital Solutions</span>
+                </h2>
+                <h2 class="font weight" id="h8" style="font-size: 40px !important;">for Your Success</h2>
+                <p id="#p3" style="font-size: 18px; padding: 0px 350px;">Explore our range of services encompassing web
+                    development, mobile app
+                    creation,
+                    graphics design,cybersecurity, SEO strategies, and effective service and management
+                    solutions. Your digital journey begins here.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-9" style="margin-top: 55px;
+            padding: 3px 172px;
+            gap: 27px;">
+                <div id="box">
+                    <i class="fa-solid fa-code" style="color: #f06000; font-size:260%;"></i>
+                    <h4 id="h4" style="font-size: 16px;">Web Development</h4>
+                    <p id="p" style="font-size: 14px;">Craft captivating websites & Web App with our expertise in modern
+                        technologies for a
+                        seamless
+                        user experience that highlights your brand.</p>
+                </div>
+                <div id="box">
+                    <i class="fa-solid fa-mobile-screen" style="color: #e36f02; font-size: 260%;"></i>                    <h4 id="h4" style="font-size: 16px;">Mobile App Development</h4>
+                    <p id="p" style="font-size: 14px;">Turn your ideas into standout mobile app for iOS and
+                        Andriod,designed to engage users and
+                        acheive your goals.</p>
+                </div>
+                <div id="box">
+                    <i class="fa-sharp fa-regular fa-pen-to-square" style="color: #f08000; font-size:260%;"></i>
+                    <h4 id="h4" style="font-size: 16px;">Graphic Designing</h4>
+                    <p id="p" style="font-size: 14px;">Elevate your brand's identity with visually stunning designs from
+                        logos to marketingg
+                        materials.Leaving a lasting impact.</p>
+                </div>
+                <div id="box">
+                    <i class="fa-brands fa-searchengin" style="color: #ea7406; font-size:260%;"></i>
+                    <h4 id="h4" style="font-size: 16px;">Search Engine Optimization</h4>
+                    <p id="p" style="font-size: 14px;">Boost your online visibility and organic traffic with our
+                        startegic SEO techniques,driving
+                        higher search engine rankings.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-20">
+        <div class="container">
+            <div class="flex" style="    gap: 190px;
+    padding: 66px 58px;">
+                <div class="img-container" style="display: flex;">
+                    <div class="img11">
+                        <img src="/logo img/provider-trust.png" alt="" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="img11">
+                        <img src="/logo img/provider-trust.png" alt="" style="width: 300px; height: 300px;">
+                    </div>
+                </div>
+                <div class="right-section">
+                    <h4 style="font-size: 42px; font-weight: 500px;">
+                        Compliance Certificates from Provider Trust and CDFA
+                    </h4>
+                    <p style="font-size: 24px; font-weight: 100px;">
+                        Compliance is crucial in the NEMT (Non-Emergency Medical Transportation) industry, as it ensures
+                        the safety and protection of patients sensitive information. We are pleased to announce that
+                        YAMSOL LLC has earned individual compliance certificates from both Provider Trust and CDFA
+                        (California Department of Food and Agriculture), recognizing our commitment to meeting the
+                        highest standards of security and safety.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- <section class="py-20">
+        <div class="container">
+            <details>
+                <summary>What types of transportation businesses do you serve?</summary>
+                We provide software solutions for a wide range of transportation businesses, including Non-Emergency
+                Medical Transportation (NEMT) providers, taxi cab companies, limousine services, para-transit providers,
+                transit authorities, and more.
+            </details>
+            <details>
+                <summary>How can your software benefit my transportation business?</summary>
+                Our software is designed to streamline operations, enhance efficiency, and improve passenger experience.
+                It offers features such as route optimization, real-time tracking, easy booking management, and
+                reporting tools tailored to the specific needs of your industry.
+            </details>
+            <details>
+                <summary>Is your software customizable to fit my business's unique needs?</summary>
+                We provide software solutions for a wide range of transportation businesses, including Non-Emergency
+                Medical Transportation (NEMT) providers, taxi cab companies, limousine services, para-transit providers,
+                transit authorities, and more.
+            </details>
+            <details>
+                <summary>How does your software help NEMT providers and brokers?</summary>
+                Absolutely. We understand that every transportation business is different. Our software solutions are
+                highly customizable and can be tailored to match your branding, workflows, and operational requirements.
+            </details>
+            <details>
+                <summary>Can your software help optimize taxi cab operations?</summary>
+                Definitely. Our taxi cab management software offers dispatching tools, real-time vehicle tracking, and
+                an intuitive passenger booking system. It enhances driver efficiency, reduces wait times, and improves
+                the overall passenger experience.
+            </details>
+            </details>
+            <details>
+                <summary>What features are included in your limousine service solutions?</summary>
+                Our limousine service software provides efficient booking management, route optimization, and real-time
+                updates for clients. It enables you to offer a luxurious and reliable journey, whether for corporate
+                clients or special events.
+            </details>
+            <details>
+                <summary>Are your software solutions compliant with industry regulations?</summary>
+                Yes, our software solutions are designed with compliance in mind. We understand the importance of
+                adhering to industry standards, such as HIPAA for healthcare-related services, and ensure that our
+                software meets these requirements.
+            </details>
+
+        </div>
+    </section> -->
+
+    <section class="py-20">
+        <div class="container">
+            <div>
+                <marquee behavior="loop" direction="Right">
+                    <div class="flex" style="gap: 66px;">
+                        <div>
+                            <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.6a8ad23b.webp&w=384&q=75"
+                                alt="" style="width: 150px; height: 80px;">
+                        </div>
+                        <div>
+                            <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F5.ba7733c5.png&w=384&q=75"
+                                alt="" style="width: 150px; height: 80px;">
+                        </div>
+                        <div>
+                            <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F6.df66971f.webp&w=384&q=75"
+                                alt="" style="width: 150px; height: 80px;">
+                        </div>
+                        <div>
+                            <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.7539b3ab.png&w=384&q=75"
+                                alt="" style="width: 150px; height: 80px;">
+                        </div>
+                        <div>
+                            <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.87509ae7.png&w=384&q=75"
+                                alt="" style="width: 150px; height: 80px;">
+                        </div>
+                        <div>
+                            <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.02ae4e3f.png&w=384&q=75"
+                                alt="" style="width: 150px; height: 80px;">
+                        </div>
+                        <div>
+                            <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F7.7539b3ab.png&w=384&q=75"
+                                alt="" style="width: 150px; height: 80px;">
+                        </div>
+                    </div>
+                </marquee>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="py-20">
+        <div class="container  BG-color-1">
+            <div class="justify-content">
+                <h2 class="font weight" id="h8" style="color: white;"> Try Our Products Before You Commit
+                </h2>
+                <p id="#p3" style="font-size: 18px; padding: 0px 350px; color: white; border-style: none;">Interested in our services but
+                    want to try before you buy? Request a demo or trial to see how our solutions can transform your
+                    transportation needs.</p>
+
+
+                <div>
+                    <Button id="btn2">Contact Us</Button>
+                    <Button id="btn2" style="background-color: white; color: black;  border-style: none;">Request a Demo</Button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="py-20-w">
+        <div class="container">
+            <div class="flex" style="gap: 32px;">
+
+                <div class="footer-conatiner">
+                    <div class="Footer-content">
+                        <h3 style="font-size: 14px;">Navigation</h3>
+                        <ul class="List" type="none" style="padding: 0px !important;">
+                            <LI style="font-size: 14px;">Home</LI>
+                            <LI style="font-size: 14px;">Solution</LI>
+                            <LI style="font-size: 14px;">VAS</LI>
+                            <LI style="font-size: 14px;">Schedule a Demo</LI>
+                        </ul>
+                    </div>
+
+
+                    <div class="Footer-content">
+                        <h3 style="font-size: 14px;">Resources</h3>
+                        <LI style="font-size: 14px;"><a href=""></a>NEMT</LI>
+                        <LI style="font-size: 14px;"><a href=""></a>FAQS</LI>
+                        <LI style="font-size: 14px;"><a href=""></a>Blogs</LI>
+                        <LI style="font-size: 14px;"><a href=""></a>Privacy Policy</LI>
+                        <LI style="font-size: 14px;"><a href=""></a>Terms & Conditions</LI>
+                    </div>
+                    <div class="Footer-content">
+                        <h3 style="font-size: 14px;">Contact</h3>
+                        <p style="font-size: 14px;">12804 Willow Point Dr, Fredericksburg, VA 22408, USA</p>
+                        <p style="font-size: 14px;">info@nemtplatform.com</p>
+                        <p style="font-size: 14px;">(804) 718 0909</p>
+                        <p style="font-size: 14px;">(804) 718 0908</p>
+                    </div>
+                    <div class="Footer-content">
+                        <h3 style="font-size: 14px;">Resource</h3>
+                        <p style="font-size: 14px;">Blogs</p>
+                        <p style="font-size: 14px;">contact</p>
+                        <p style="font-size: 14px;">Frequently Asked Questions</p>
+                        <p style="font-size: 14px;">Testimonials</p>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="bottom-bar" style="display: flex;justify-content: center;">
+                <div class="left">
+                    <img src="https://yamsol.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.08e2afb0.png&w=256&q=75"
+                        alt="" style="padding: 0px; width: 125px;">
+                </div>
+                <p>&copy;© Yamsol. 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script> -->
+
 </body>
+
 </html>
