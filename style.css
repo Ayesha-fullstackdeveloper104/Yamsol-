@@ -1,0 +1,35 @@
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .justify-center-center{
+    justify-content: center;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+  
+  .py-20 {
+    padding: 80px 0px;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 32px;
+    /* margin: t r b l;
+        margin: tb rl */
+  }
+  
+  #width {
+    width: 100%;
+  }
